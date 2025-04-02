@@ -2,7 +2,7 @@ package com.daruuu.connectfourgame.model;
 
 public class GameBoard
 {
-    private char[][]    board;
+    private final char[][]    board;
     private int         columns;
     private int         rows;
     private long        startGame;
@@ -17,6 +17,7 @@ public class GameBoard
         this.board = new char[rows][columns];
     }
 
+/*
     public void initializeBoard()
     {
         int i;
@@ -33,6 +34,6 @@ public class GameBoard
             }
             i ++;
         }
-
     }
+*/
 }
